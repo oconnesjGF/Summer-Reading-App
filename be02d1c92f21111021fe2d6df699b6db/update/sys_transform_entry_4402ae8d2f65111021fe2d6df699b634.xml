@@ -5,9 +5,9 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
-        <map display_value="x_850380_reading_library_patron_transform_map">fb4a4a052f25111021fe2d6df699b6cd</map>
+        <map display_value="x_850380_reading_library_patron_transform_map">7140264d2f65111021fe2d6df699b6d2</map>
         <reference_value_field/>
-        <source_field>u_city</source_field>
+        <source_field>u_email</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
 
 	// Add your code here
@@ -17,17 +17,17 @@
         <source_table>x_850380_reading_library_patron_import_table</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-24 18:12:03</sys_created_on>
-        <sys_id>6b8bc2092f25111021fe2d6df699b663</sys_id>
+        <sys_created_on>2022-08-24 19:50:07</sys_created_on>
+        <sys_id>4402ae8d2f65111021fe2d6df699b634</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>u_city</sys_name>
+        <sys_name>u_email</sys_name>
         <sys_package display_value="Summer Reading App" source="x_850380_reading">be02d1c92f21111021fe2d6df699b6db</sys_package>
         <sys_policy/>
         <sys_scope display_value="Summer Reading App">be02d1c92f21111021fe2d6df699b6db</sys_scope>
-        <sys_update_name>sys_transform_entry_6b8bc2092f25111021fe2d6df699b663</sys_update_name>
+        <sys_update_name>sys_transform_entry_4402ae8d2f65111021fe2d6df699b634</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-24 18:12:03</sys_updated_on>
-        <target_field>city</target_field>
+        <sys_updated_on>2022-08-24 19:50:07</sys_updated_on>
+        <target_field>email</target_field>
         <target_table>x_850380_reading_library_patron</target_table>
         <use_source_script>false</use_source_script>
     </sys_transform_entry>

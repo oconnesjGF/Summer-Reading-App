@@ -3,9 +3,11 @@
         <element default="150" label="Address" max_length="150" name="adress" type="string"/>
         <element label="Birthdate" max_length="40" name="birthdate" type="glide_date"/>
         <element label="City" max_length="100" name="city" type="string"/>
+        <element label="Date Joined" max_length="40" name="date_joined" type="glide_date"/>
         <element label="Email" max_length="100" name="email" type="string"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Library ID" max_length="40" name="number" type="string"/>
         <element label="Phone" max_length="40" name="phone" type="string"/>
         <element label="State" max_length="40" name="state" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
