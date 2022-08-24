@@ -3,6 +3,7 @@
         <element attributes="edge_encryption_enabled=true" label="Audio Book Name" max_length="300" name="audio_book_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Author" max_length="40" name="author" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Listening Time" max_length="40" name="listening_time" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Audio Book ID" max_length="40" name="number" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="sys_class_name"/>
