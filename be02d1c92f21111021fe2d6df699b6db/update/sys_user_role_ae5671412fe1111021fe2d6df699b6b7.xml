@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_850380_reading.library_patrons_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>library_patrons_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 16:39:24</sys_created_on>
+        <sys_id>ae5671412fe1111021fe2d6df699b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_850380_reading.library_patrons_user</sys_name>
+        <sys_package display_value="Summer Reading App" source="x_850380_reading">be02d1c92f21111021fe2d6df699b6db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Summer Reading App">be02d1c92f21111021fe2d6df699b6db</sys_scope>
+        <sys_update_name>sys_user_role_ae5671412fe1111021fe2d6df699b6b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 16:39:24</sys_updated_on>
+    </sys_user_role>
+</record_update>
