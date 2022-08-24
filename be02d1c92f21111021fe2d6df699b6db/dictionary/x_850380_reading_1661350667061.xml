@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Reading 1661350667061" max_length="40" name="x_850380_reading_1661350667061" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Audio Book Name" label="Audio Book Name" max_length="248" name="u_audio_book_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Author" label="Author" max_length="40" name="u_author" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Listening Time" label="Listening Time" max_length="40" name="u_listening_time" type="string"/>
+    </element>
+</database>

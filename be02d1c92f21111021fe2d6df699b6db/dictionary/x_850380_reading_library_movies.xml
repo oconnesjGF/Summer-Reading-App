@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Library Movies" max_length="40" name="x_850380_reading_library_movies" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Genre One" max_length="40" name="genre_one" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Genre Three" max_length="40" name="genre_three" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Genre Two" max_length="40" name="genre_two" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1411" name="movie_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="131" name="movie_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Production Company One" max_length="40" name="production_company_one" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Production Company Three" max_length="40" name="production_company_three" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Production Company Two" max_length="40" name="production_company_two" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Release Date" max_length="40" name="release_date" type="glide_date"/>
+        <element label="Runtime" max_length="40" name="runtime" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

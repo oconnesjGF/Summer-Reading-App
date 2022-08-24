@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Library Audio Books" max_length="40" name="x_850380_reading_library_audio_books" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Audio Book Name" max_length="300" name="audio_book_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Author" max_length="40" name="author" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Listening Time" max_length="40" name="listening_time" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
