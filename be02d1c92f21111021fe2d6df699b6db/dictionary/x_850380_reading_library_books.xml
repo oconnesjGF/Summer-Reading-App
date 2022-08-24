@@ -4,6 +4,7 @@
         <element attributes="edge_encryption_enabled=true" label="Book Title" max_length="254" name="book_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ISBN" max_length="40" name="isbn" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ISBN13" max_length="40" name="isbn13" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Book ID" max_length="40" name="number" type="string"/>
         <element label="Number of Pages" max_length="40" name="number_of_pages" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Publication Date" max_length="40" name="publication_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Publisher" max_length="100" name="publisher" type="string"/>
