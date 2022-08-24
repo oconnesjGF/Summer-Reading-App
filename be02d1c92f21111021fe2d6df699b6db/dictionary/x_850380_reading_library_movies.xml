@@ -5,6 +5,7 @@
         <element attributes="edge_encryption_enabled=true" label="Genre Two" max_length="40" name="genre_two" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="1411" name="movie_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Title" max_length="131" name="movie_title" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Movie ID" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Company One" max_length="40" name="production_company_one" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Company Three" max_length="40" name="production_company_three" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Company Two" max_length="40" name="production_company_two" type="string"/>
