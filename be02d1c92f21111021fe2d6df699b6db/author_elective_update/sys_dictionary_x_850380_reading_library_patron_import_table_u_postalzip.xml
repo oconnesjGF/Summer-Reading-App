@@ -171,7 +171,6 @@
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
         <sys_id>6f3ee56923c344539bd1b7961299d5a9</sys_id>
         <sys_metadata>7f75b6c92fe5111021fe2d6df699b681</sys_metadata>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>postalZip</sys_name>
         <sys_package display_value="Summer Reading App" source="x_850380_reading">be02d1c92f21111021fe2d6df699b6db</sys_package>
         <sys_parent/>
@@ -180,7 +179,5 @@
         <sys_scope_delete display_value="">20082ac9b2d74a4c8e76ccb02ed3b390</sys_scope_delete>
         <sys_update_name>sys_dictionary_x_850380_reading_library_patron_import_table_u_postalzip</sys_update_name>
         <sys_update_version display_value="sys_dictionary_x_850380_reading_library_patron_import_table_u_postalzip">41a5bec92fe5111021fe2d6df699b69e</sys_update_version>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-24 21:18:04</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Library Patron Transform Map</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_850380_reading_library_patron_import_table</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 13:58:01</sys_created_on>
+        <sys_id>12ea5ed197611110a278bfb6f053afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Library Patron Transform Map</sys_name>
+        <sys_package display_value="Summer Reading App" source="x_850380_reading">be02d1c92f21111021fe2d6df699b6db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Summer Reading App">be02d1c92f21111021fe2d6df699b6db</sys_scope>
+        <sys_update_name>sys_transform_map_12ea5ed197611110a278bfb6f053afb0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 13:58:01</sys_updated_on>
+        <target_table>x_850380_reading_library_patron</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Summer Reading App">be02d1c92f21111021fe2d6df699b6db</application>
+        <file_path/>
+        <instance_id>ae07927ddb847c50e26fd7c8f4961993</instance_id>
+        <instance_name>dev115361</instance_name>
+        <name>sys_transform_map_12ea5ed197611110a278bfb6f053afb0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Library Patron Transform Map&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_850380_reading_library_patron_import_table&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-25 13:58:01&lt;/sys_created_on&gt;&lt;sys_id&gt;12ea5ed197611110a278bfb6f053afb0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Library Patron Transform Map&lt;/sys_name&gt;&lt;sys_package display_value="Summer Reading App" source="x_850380_reading"&gt;be02d1c92f21111021fe2d6df699b6db&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Summer Reading App"&gt;be02d1c92f21111021fe2d6df699b6db&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_12ea5ed197611110a278bfb6f053afb0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-25 13:58:01&lt;/sys_updated_on&gt;&lt;target_table&gt;x_850380_reading_library_patron&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>932300805</payload_hash>
+        <record_name>Library Patron Transform Map</record_name>
+        <reverted_from/>
+        <source>6411de1197211110a278bfb6f053af8b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 13:58:01</sys_created_on>
+        <sys_id>d00b9e1597611110a278bfb6f053afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d54ba9040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-25 13:58:01</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>1c0b9e15f561111073328774465330a2</update_guid>
+        <update_guid_history>1c0b9e15f561111073328774465330a2:932300805</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 14:02:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>74dbf7426c2c4de293895207740dda71</sys_id>
+        <sys_metadata>12ea5ed197611110a278bfb6f053afb0</sys_metadata>
+        <sys_name>Library Patron Transform Map</sys_name>
+        <sys_package display_value="Summer Reading App" source="x_850380_reading">be02d1c92f21111021fe2d6df699b6db</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Summer Reading App">be02d1c92f21111021fe2d6df699b6db</sys_scope>
+        <sys_scope_delete display_value="">20082ac9b2d74a4c8e76ccb02ed3b390</sys_scope_delete>
+        <sys_update_name>sys_transform_map_12ea5ed197611110a278bfb6f053afb0</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_12ea5ed197611110a278bfb6f053afb0">d00b9e1597611110a278bfb6f053afa3</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

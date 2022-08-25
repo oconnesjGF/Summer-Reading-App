@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Book Transform Map">128e1a5997611110a278bfb6f053affd</map>
+        <reference_value_field/>
+        <source_field>u_publication_date</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_850380_reading_book_import_table</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-25 14:13:45</sys_created_on>
+        <sys_id>6e9e9a5997611110a278bfb6f053aff1</sys_id>
+        <sys_name>u_publication_date</sys_name>
+        <sys_package display_value="Summer Reading App" source="x_850380_reading">be02d1c92f21111021fe2d6df699b6db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Summer Reading App">be02d1c92f21111021fe2d6df699b6db</sys_scope>
+        <sys_update_name>sys_transform_entry_6e9e9a5997611110a278bfb6f053aff1</sys_update_name>
+        <target_field>publication_date</target_field>
+        <target_table>x_850380_reading_library_books</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

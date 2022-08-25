@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Library Books" max_length="40" name="x_850380_reading_library_books" type="collection">
+    <element db_object_id="5fd0d21597211110a278bfb6f053afc8" label="Library Books" max_length="40" name="x_850380_reading_library_books" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Author" max_length="751" name="author" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Book Title" max_length="254" name="book_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ISBN" max_length="40" name="isbn" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ISBN13" max_length="40" name="isbn13" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Book ID" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Book ID" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Number of Pages" max_length="40" name="number_of_pages" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Publication Date" max_length="40" name="publication_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Publisher" max_length="100" name="publisher" type="string"/>
