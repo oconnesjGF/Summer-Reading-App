@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a1f55b5197651110a278bfb6f053af90" label="Library Prize" max_length="40" name="x_850380_reading_library_prize" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Prize ID" max_length="40" name="number" type="string"/>
+        <element label="Prize" max_length="40" name="prize" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

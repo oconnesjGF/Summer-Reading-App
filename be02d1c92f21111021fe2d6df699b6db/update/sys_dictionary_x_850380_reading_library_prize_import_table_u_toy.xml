@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_phone" table="imp_computer">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_toy" table="x_850380_reading_library_prize_import_table">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true,import_attribute_name=phone</attributes>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Toy</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>phone</column_label>
+        <column_label>Toy</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_phone</element>
+        <element>u_toy</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -30,7 +30,7 @@
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>imp_computer</name>
+        <name>x_850380_reading_library_prize_import_table</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,12 +46,12 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-25 13:43:28</sys_created_on>
-        <sys_name>phone</sys_name>
+        <sys_created_on>2022-08-25 18:14:33</sys_created_on>
+        <sys_name>Toy</sys_name>
         <sys_package display_value="Summer Reading App" source="x_850380_reading">be02d1c92f21111021fe2d6df699b6db</sys_package>
         <sys_policy/>
         <sys_scope display_value="Summer Reading App">be02d1c92f21111021fe2d6df699b6db</sys_scope>
-        <sys_update_name>sys_dictionary_imp_computer_u_phone</sys_update_name>
+        <sys_update_name>sys_dictionary_x_850380_reading_library_prize_import_table_u_toy</sys_update_name>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -59,7 +59,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

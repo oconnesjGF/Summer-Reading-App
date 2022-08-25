@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="82b5d35197651110a278bfb6f053af27" extends="sys_import_set_row" label="Library Prize Import Table" max_length="40" name="x_850380_reading_library_prize_import_table" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Toy" label="Toy" max_length="40" name="u_toy" type="string"/>
+    </element>
+</database>
