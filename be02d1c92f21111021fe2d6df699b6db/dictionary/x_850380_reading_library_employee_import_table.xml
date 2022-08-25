@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e9aa6ed597a11110a278bfb6f053af01" extends="sys_import_set_row" label="Library Employee Import Table" max_length="40" name="x_850380_reading_library_employee_import_table" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=address" label="address" max_length="40" name="u_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=birthdate" label="birthdate" max_length="40" name="u_birthdate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=city" label="city" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=date_hired" label="date_hired" max_length="40" name="u_date_hired" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=department" label="department" max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=email" label="email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=first_name" label="first_name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=last_name" label="last_name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=phone" label="phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=zip" label="zip" max_length="40" name="u_zip" type="integer"/>
+    </element>
+</database>

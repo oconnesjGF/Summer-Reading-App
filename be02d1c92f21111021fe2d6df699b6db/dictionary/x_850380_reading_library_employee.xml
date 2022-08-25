@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2346a2d197a11110a278bfb6f053afbb" label="Library Employee" max_length="40" name="x_850380_reading_library_employee" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element label="Birthdate" max_length="40" name="employee_birthdate" type="glide_date"/>
+        <element label="Email" max_length="40" name="employee_email" type="string"/>
+        <element label="Hire Date" max_length="40" name="employee_hire_date" type="glide_date"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Employee ID" max_length="40" name="number" type="string"/>
+        <element label="Phone" max_length="40" name="phone_number" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Zip" max_length="40" name="zip" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
